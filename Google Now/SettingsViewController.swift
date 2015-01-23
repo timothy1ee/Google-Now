@@ -24,8 +24,6 @@ class SettingsViewController: UIViewController {
     @IBAction func didPressDoneButton(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
     }
-    
-    
 
     /*
     // MARK: - Navigation
