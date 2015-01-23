@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223BA3DA1A71CA9A0063D316 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223BA3D91A71CA9A0063D316 /* SettingsViewController.swift */; };
 		2294D3541A71C83100DE321C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2294D3531A71C83100DE321C /* AppDelegate.swift */; };
 		2294D3561A71C83100DE321C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2294D3551A71C83100DE321C /* ViewController.swift */; };
 		2294D3591A71C83100DE321C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2294D3571A71C83100DE321C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		223BA3D91A71CA9A0063D316 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		2294D34E1A71C83100DE321C /* Google Now.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Now.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2294D3521A71C83100DE321C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2294D3531A71C83100DE321C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				2294D35A1A71C83100DE321C /* Images.xcassets */,
 				2294D35C1A71C83100DE321C /* LaunchScreen.xib */,
 				2294D3511A71C83100DE321C /* Supporting Files */,
+				223BA3D91A71CA9A0063D316 /* SettingsViewController.swift */,
 			);
 			path = "Google Now";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				2294D3561A71C83100DE321C /* ViewController.swift in Sources */,
 				2294D3541A71C83100DE321C /* AppDelegate.swift in Sources */,
+				223BA3DA1A71CA9A0063D316 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				2294D36F1A71C83100DE321C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2294D3701A71C83100DE321C /* Build configuration list for PBXNativeTarget "Google NowTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				2294D3721A71C83100DE321C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
